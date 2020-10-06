@@ -1,0 +1,76 @@
+/**
+* Criado por Giselle Rosa
+**/
+/* FONTES UTILIZADAS
+font-family: 'Overlock', cursive;
+font-family: 'Manjari', sans-serif;
+ */
+
+
+*{margin: 0; padding: 0; font-family: 'Manjari', sans-serif; box-sizing: border-box;}
+
+/* CLASSES AUXILIARES */
+.container{max-width: 1000px; margin: 0 auto;}
+
+
+.clearfix::after, .clearfix::before{display:table; content: " ";}
+.clearfix::after{clear: both;}
+.clear{clear: both;}
+.btn_verde{background-color: #f2f2f2; color: #FFF; padding: 5px 15px; text-decoration: none; display: inline-block;}
+.btn_verde:hover{background-color: #f2f2f2; color: #FFF;}
+
+/* PADRONIZAÇÃO DE ALGUMAS TAGS HTML */
+body {background-color:#f2f2f2; }
+h2 {color: #cbad6c; margin-bottom: 25px;}
+h3 {color: #cbad6c; font-weight: 600; font-size: 0.85em; text-transform: uppercase;}
+main p {margin-bottom: 20px;}
+a {color: #cbad6c;}
+a:hover {color: #cbad6c;}
+
+/* CABEÇALHO DA PÁGINA */
+header div h1 { color: #; font-size: 0em;}
+
+/* MENU PRINCIPAL */
+header nav {text-align: right; background-color: #FFF; border: 1px solid #ccc; padding: 10px; margin-bottom: 15px;}
+header nav a{text-decoration: none; color: #cbad6c; padding: 5px 15px;}
+header nav a:hover{background-color: #cbad6c; color: #FFF;}
+
+/* FIM DO CABEÇALHO */
+
+/* BANNER */
+
+#corpo{margin-top: 25px; margin-bottom: 25px;}
+
+/* CONFIGURAÇÕES DO SOBRE NÓS */
+#sobre-noss{width: 32%; float: left;}
+#sobre-nos{width:100%;}
+
+
+/* CONFIGURAÇÕES DOS ARTIGOS RECENTES */
+#logo{width:32%; margin: 15px 0 15px 0;}
+
+#artigos{width: 32%; margin-left: 2%; margin-right: 2%; float: left;}
+#artigos .mylove {margin-bottom: 10px;}
+#artigos .mylove img {float: left; margin-right: 10px;}
+
+/* CONFIGURAÇÕES DOS COMENTÁRIOS */
+#comentarios{width: 32%; float: right;}
+#comentarios .comentario_p img {float: left; margin-right: 10px; border-radius: 40px;}
+#comentarios .comentario_p p {font-size: 0.85em;}
+
+/* CONFIGURAÇÕES DO FOOTER */
+
+footer#rodape {background-color: #cbad6c; color:#FFF; padding: 15px;}
+#footer-texto{width: 64%; float: left; text-align: center;}
+#footer-texto small{margin-top: 15px; display: block;}
+#footer-redes-sociais{width: 16%; float: right;}
+
+
+/* FORMATAÇÕES DA PÁGINA ARTIGOS */
+
+.background-artigo{height: 200px; background-size: cover;}
+#lista-artigos article{width: 48%; margin: 1%; border:1px solid #ccc; padding:10px; float: left; background-color: #FFF;}
+#lista-artigos h3 {font-size: initial;}
+
+/* Pagina nossa historia*/
+#micorpo{margin-top: 25px; margin-bottom: 25px;}
